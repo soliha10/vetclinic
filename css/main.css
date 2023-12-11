@@ -2616,6 +2616,7 @@ a {
   background-position: calc(50% + 500px) calc(50% + 250px);
   box-sizing: 654px 640px;
 }
+
 .faq-infos-inner {
   padding-bottom: 270px;
 }
@@ -2627,7 +2628,7 @@ a {
   background-color: #fff;
   background-image: url("../faq-images/faq-arrow.svg");
   background-repeat: no-repeat;
-  background-position: calc(93% );
+  background-position: calc(93%);
 }
 
 
@@ -2697,10 +2698,236 @@ a {
   font-weight: 500;
   line-height: 22px;
 }
-.faq-infos-item:nth-child( 3 ),
+
+.faq-infos-item:nth-child(3),
 .faq-infos-item:last-child {
   opacity: 0.7;
   background-image: url("../faq-images/clock.svg");
   background-repeat: no-repeat;
   background-position: calc(93%);
+}
+
+
+/* SERVICES START */
+.services-hero {
+  background-image: url("../services-images/services-parrot.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 450px);
+  background-size: 435px 435px;
+}
+
+.services-wrapper {
+  padding: 118px 0 140px;
+}
+
+.services-inner {
+  width: 447px;
+}
+
+.services-title {
+  margin-top: 0;
+  margin-bottom: 21px;
+  color: #333;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.services-desc {
+  color: #949494;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.services-part-inner {
+  padding-bottom: 169px;
+}
+
+.services-part-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px 30px;
+}
+
+.services-part-item {
+  width: 305px;
+  padding: 57px 25px 45px 53px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #fff;
+  background-image: url("../services-images/pet-paw.svg");
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  background-position: calc(50% + 85px) calc(50% - 140px);
+}
+
+.services-part-item:first-child::before {
+  content: '';
+  display: inline-block;
+  width: 54px;
+  height: 77px;
+  margin-bottom: 22px;
+  background-image: url("../images/doctor.svg");
+  background-repeat: no-repeat;
+}
+
+.services-part-item:nth-child(2)::before {
+  content: '';
+  display: inline-block;
+  width: 61px;
+  height: 77px;
+  margin-bottom: 22px;
+  background-image: url("../images/girl.svg");
+  background-repeat: no-repeat;
+}
+
+.services-part-item:nth-child(3)::before {
+  content: '';
+  display: inline-block;
+  width: 72px;
+  height: 77px;
+  margin-bottom: 22px;
+  background-image: url("../images/dog.svg");
+  background-repeat: no-repeat;
+}
+
+.services-part-item:nth-child(4)::before {
+  content: '';
+  display: inline-block;
+  width: 76px;
+  height: 76px;
+  margin-bottom: 22px;
+  background-image: url("../images/child.svg");
+  background-repeat: no-repeat;
+}
+
+.services-part-item:nth-child(5)::before {
+  content: '';
+  display: inline-block;
+  width: 78px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-image: url("../images/loop.svg");
+  background-repeat: no-repeat;
+}
+
+.services-part-item:nth-child(6)::before {
+  content: '';
+  display: inline-block;
+  width: 76px;
+  height: 76px;
+  margin-bottom: 22px;
+  background-image: url("../images/dogs.svg");
+  background-repeat: no-repeat;
+}
+
+.services-part-item:nth-child(7)::before {
+  content: '';
+  display: inline-block;
+  width: 77px;
+  height: 77px;
+  margin-bottom: 22px;
+  background-image: url("../services-images/bone.svg");
+  background-repeat: no-repeat;
+}
+
+.services-part-item:nth-child(8)::before {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 76px;
+  margin-bottom: 22px;
+  background-image: url("../services-images/injection.svg");
+  background-repeat: no-repeat;
+}
+
+.services-part-item:nth-child(9)::before {
+  content: '';
+  display: inline-block;
+  width: 87px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-image: url("../services-images/animal-passport.svg");
+  background-repeat: no-repeat;
+}
+
+.services-part-item:nth-child(10)::before {
+  content: '';
+  display: inline-block;
+  width: 68px;
+  height: 76px;
+  margin-bottom: 22px;
+  background-image: url("../services-images/medicines.svg");
+  background-repeat: no-repeat;
+}
+
+.services-part-item:nth-child(11)::before {
+  content: '';
+  display: inline-block;
+  width: 78px;
+  height: 78px;
+  margin-bottom: 22px;
+  background-image: url("../services-images/teeth.svg");
+  background-repeat: no-repeat;
+}
+
+.services-part-item:last-child::before {
+  content: '';
+  display: inline-block;
+  width: 76px;
+  height: 76px;
+  margin-bottom: 22px;
+  background-image: url("../services-images/medicine-bag.svg");
+  background-repeat: no-repeat;
+}
+.services-part-item:hover {
+  box-shadow: 1px 1px 15px #e4e4e4;
+  transition: box-shadow 0.5s;
+}
+.services-part-subtitle {
+  margin-top: 0;
+  margin-bottom: 14px;
+  color: #333;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+.services-part-desc {
+  margin-top: 0;
+  margin-bottom: 26px;
+  color: #949494;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.services-part-link {
+  display: inline-block;
+  width: 156px;
+  padding: 15px 20px 14px;
+  text-align: center;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+
+}
+
+.services-part-item:nth-child(odd) .services-part-link {
+  background-color: #ffbd54;
+}
+
+.services-part-item:nth-child(even) .services-part-link {
+  background-color: #78c0de;
+}
+.services-part-link:hover {
+  background-color: #000;
+  cursor: context-menu;
 }
